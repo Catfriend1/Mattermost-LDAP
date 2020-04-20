@@ -50,7 +50,7 @@ if (empty($_POST)) {
 			<div id="form_credentials">
 				<h1>LDAP Authentication</h1>
 				<div id="form_icon">
-				<img src="./auth_icon.png" alt="authentication icon" >
+				<img src="./images/auth_icon.png" alt="authentication icon" >
 				</div>
 				<br>
 				<h2>Authorize Mattermost to get the following data:</h2>
