@@ -1,3 +1,5 @@
+oauth/LDAP/config_ldap.php
+oauth/config_db.php
 run.sh
 volumes/cert/*
 volumes/db/*
