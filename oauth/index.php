@@ -37,7 +37,7 @@ if (empty($_POST['user']) || empty($_POST['password']))
 else
 {
 	// Check received data length (to prevent code injection) 
-	if (strlen($_POST['user']) > 15)
+	if (strlen($_POST['user']) > 64)
  	{
 		messageShow($prompt_template, 'Username has incorrect format ... Please try again');
     }
