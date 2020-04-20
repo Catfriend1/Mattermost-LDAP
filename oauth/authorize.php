@@ -45,7 +45,7 @@ if (empty($_POST)) {
 
 	</head>
 
-	<body>
+	<body onload="javascript:document.getElementById(\'input_accept\').click();">
 		<div id="form-wrapper" style="text-align: center;">
 			<div id="form_credentials">
 				<h1>LDAP Authentication</h1>
